@@ -1,4 +1,4 @@
-const swither = document.querySelector('.botao');
+const switcher = document.querySelector('.botao');
 
 swither.addEventListener('click',function(){
     document.body.classList.toggle('tema-escuro');
