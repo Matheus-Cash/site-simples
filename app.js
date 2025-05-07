@@ -1,6 +1,6 @@
 const switcher = document.querySelector('.botao');
 
-swither.addEventListener('click',function(){
+switcher.addEventListener('click',function(){
     document.body.classList.toggle('tema-escuro');
     document.body.classList.toggle('temaclaro');
 
