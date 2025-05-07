@@ -20,3 +20,10 @@ li{
 .lista{
     list-style: square;
 }
+
+.tema-claro{
+    --bg: var(--green);
+    --fontcolor: var(--black);
+    --btnbg: var(--black);
+    --btnfontcolor: var(--white);
+}
