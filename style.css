@@ -8,40 +8,45 @@
     color: var(--fontcolor);
     font-family: Helvetica, ;
 
-}body{
-   background: var(--bg);
-   background-color: #00FF00;
 }
-ul{
-    font-family:Helvetica,;
+
+body {
+    background: var(--bg);
 }
-li{
-    list-style: circle ;
+
+ul {
+    font-family: Helvetica, ;
 }
-.lista{
+
+li {
+    list-style: circle;
+}
+
+.lista {
     list-style: square;
 }
 
-.tema-claro{
+.tema-claro {
     --bg: var(--green);
     --fontcolor: var(--black);
     --btnbg: var(--black);
     --btnfontcolor: var(--white);
 }
 
-.tema-escuro{
+.tema-escuro {
     --bg: var(--black);
     --fontcolor: var(--green);
     --btnbg: var(--white);
     --btnfontcolor: var(--black);
 }
-.botao{
-position: absolute;
-top: 20px;
-left: 250px;
-height: 50px;
-width: 50px;
-border-radius: 50%;
-color: var(--btnfontcolor);
-background-color: var(--btnbg);
+
+.botao {
+    position: absolute;
+    top: 20px;
+    left: 250px;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    color: var(--btnfontcolor);
+    background-color: var(--btnbg);
 }
