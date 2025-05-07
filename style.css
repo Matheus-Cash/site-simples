@@ -7,4 +7,6 @@
 * {
     color: var(--fontcolor);
     font-family: Helvetica, ;
+}body{
+   background-color: red;
 }
