@@ -2,7 +2,7 @@ const switcher = document.querySelector('.botao');
 
 switcher.addEventListener('click',function(){
     document.body.classList.toggle('tema-escuro');
-    document.body.classList.toggle('temaclaro');
+    document.body.classList.toggle('tema-claro');
 
 
     var nomedaclasse = document.body.className;
