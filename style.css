@@ -7,7 +7,16 @@
 * {
     color: var(--fontcolor);
     font-family: Helvetica, ;
-    
+
 }body{
-   background-color: red;
+   background: var(--bg);
+}
+ul{
+    font-family:Helvetica,;
+}
+li{
+    list-style: circle ;
+}
+.lista{
+    list-style: square;
 }
