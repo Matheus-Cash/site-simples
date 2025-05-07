@@ -27,3 +27,10 @@ li{
     --btnbg: var(--black);
     --btnfontcolor: var(--white);
 }
+
+.tema-escuro{
+    --bg: var(--black);
+    --fontcolor: var(--green);
+    --btnbg: var(--white);
+    --btnfontcolor: var(--black);
+}
